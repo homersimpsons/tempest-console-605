@@ -1,0 +1,12 @@
+{
+    "name": "t/app",
+    "require": {
+        "tempest/console": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "T\\App\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
